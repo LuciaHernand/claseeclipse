@@ -1,9 +1,14 @@
 package tercero;
 
 import java.util.Random;
+import java.util.Scanner;
 
 public class cartas  {
 	public static void main(String[] args) {
+	int adivina;
+	
+	Scanner scan=new Scanner(System.in);
+	
 	for(int picas=1;picas<=12;picas++) {
 	
 		System.out.println(picas+"picas");
@@ -24,7 +29,16 @@ public class cartas  {
 	
 	int carta =(int) (Math.random()*12);
 	carta=rand.nextInt(12);
-	System.out.println(carta);
+	System.out.println("Adivina el numero de la carta");
+	
+	
+	
+	for(int i=0;i<=3;i++) {
+		adivina=scan.nextInt();
+	if(carta==adivina) {System.out.println("Has acertado");}
+	if(carta!=adivina) {System.out.println("Intentalo de nuevo");}
+	}
+	scan.close();
 
 }
 	
