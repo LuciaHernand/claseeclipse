@@ -8,7 +8,7 @@ public class cartas  {
 	int adivina;
 	
 	Scanner scan=new Scanner(System.in);
-	
+	//baraja
 	for(int picas=1;picas<=12;picas++) {
 	
 		System.out.println(picas+"picas");
