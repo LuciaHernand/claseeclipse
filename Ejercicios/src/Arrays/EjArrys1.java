@@ -1,10 +1,13 @@
 package Arrays;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class EjArrys1 {
 
 	public static void main(String[] args) {
+		Scanner scan=new Scanner(System.in);
+		
 		int[] miPrimerArray=new int[3];
 		
 		miPrimerArray[0]=31;
@@ -19,8 +22,21 @@ public class EjArrys1 {
 		System.out.println(Arrays.toString(miSegundoArray));
 
 		
+		//otra forma de hacer arrays
 		
+		int []miTercerArray= {45,1,26,4,53};
 		
+		System.out.println(Arrays.toString(miTercerArray));
+		
+		String []miCuartoArray= {"lunes","martes","","jueves","viernes"};
+		
+		miCuartoArray[2]=scan.next();
+				
+				
+		System.out.println(Arrays.deepToString(miCuartoArray));
+	
+		
+		scan.close();
 	}
 
 	
