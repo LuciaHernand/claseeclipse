@@ -39,7 +39,7 @@ public class PracticandoArrays {
 		palabras[3]=palabras[3].toLowerCase();
 		
 		System.out.println(Arrays.toString(palabras));
-		if( palabras[1].toLowerCase()==palabras[3].toLowerCase()) System.out.println("Las palbras de la posicion 2 y 4 son iguales");;
+		if( palabras[1].toLowerCase()==palabras[3].toLowerCase()) System.out.println("Las palbras de la posicion 2 y 4 son iguales");
 		
 		
 		
