@@ -26,7 +26,7 @@ public class PracticandoArrays {
 		else if (numeros[4]>numeros[2])System.out.println("El numero de la posicion 4 es mayor que el de la posicion 2");
 		
 		String [] palabras=new String[4];
-		
+		//a
 		
 		palabras[0]="Hola";
 		palabras[1]="hola";
