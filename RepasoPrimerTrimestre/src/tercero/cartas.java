@@ -23,7 +23,7 @@ public static void barajaFrancesa(){
 	
 	
 }
-public static void barajaEspañola(){
+public static void barajaEspaniola(){
 	for(int oros=1;oros<=12;oros++) {
 		
 		System.out.println(oros+"oros");
@@ -39,9 +39,10 @@ public static void barajaEspañola(){
 	for(int bastos=1;bastos<=12;bastos++) {
 		System.out.println(bastos+"bastos");
 	}
-	
-	
 }
+
+	
+
 	public static void main(String[] args) {
 	int adivina;
 	int paloAdiv = 0;
@@ -52,7 +53,7 @@ public static void barajaEspañola(){
 	
 	switch(selecciona) {
 	case 1: barajaFrancesa();break;
-	case 2:barajaEspañola();break;
+	case 2:barajaEspaniola();break;
 	}
 
 	Random rand=new Random();
@@ -75,11 +76,12 @@ public static void barajaEspañola(){
 		if(carta==adivina||palo==paloAdiv) {System.out.println("Has acertado");}
 		if(carta!=adivina) {System.out.println("Intentalo de nuevo");}
 		
-	}
-		
-		break;
+	}break;
+	
 	case 2: 
-		for(int i=0;i<=3;i++) {System.out.println("Adivina el numero");
+	 
+		for(int i=0;i<=3;i++) {
+			System.out.println("Adivina el numero");
 		adivina=scan.nextInt();
 	
 		System.out.println("Adivina el palo");
@@ -89,18 +91,15 @@ public static void barajaEspañola(){
 		if(carta==adivina||palo==paloAdiv) {System.out.println("Has acertado");}
 		if(carta!=adivina) {System.out.println("Intentalo de nuevo");}
 		
-	}
-		break;
+	}break;
 	}
 	System.out.println(carta+" "+palo);
 
-	
-	
-	
 	scan.close();
-
-}
 	
+	}
+	
+
 }
 
 
