@@ -91,15 +91,15 @@ public static void barajaEspaniola(){
 		if(carta==adivina||palo==paloAdiv) {System.out.println("Has acertado");}
 		if(carta!=adivina) {System.out.println("Intentalo de nuevo");}
 		
-	}break;
-	}
+	}break;}
+	
 	System.out.println(carta+" "+palo);
 
+	
 	scan.close();
 	
-	}
-	
 
-}
+	}
+	}
 
 

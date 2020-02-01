@@ -1,4 +1,4 @@
-package herencia;
+package arrayObje0512;
 
 public class Vehiculo {
 String matricula;

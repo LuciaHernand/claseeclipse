@@ -27,8 +27,8 @@ public class Pintados {
 	        }*/
 	    
 	
-	       //triangulo1
-	            /*int num2 = 0;
+	      // triangulo1
+	            int num2 = 0;
 	            int hola=1;
 	            int hello;
 	          
@@ -45,7 +45,7 @@ public class Pintados {
 	               }
 	               num2++;
 	               System.out.println("");
-	            }*/
+	            }
 	        //triangulo2
 	       /*int num3=8;
 	        
