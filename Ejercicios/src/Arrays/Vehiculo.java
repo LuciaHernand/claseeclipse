@@ -1,4 +1,4 @@
-package interfaces;
+package Arrays;
 
 public class Vehiculo implements Comparable{
 	

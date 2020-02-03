@@ -1,4 +1,4 @@
-package interfaces.compareto;
+package VehiculoCompleto;
 
 public class Vehiculo1 implements Comparable{
 
@@ -36,8 +36,16 @@ public class Vehiculo1 implements Comparable{
 	public int compareTo(Object vehi) {
 		Vehiculo1 v1= (Vehiculo1)vehi;
 		int resultado=0;
-		if(v1 instanceof Taxi) {resultado=-1;}
-		else {resultado=1;}
+		if(v1 instanceof Taxi && this instanceof Taxi) {
+		if(this.cilindrada< v1.cilindrada) {
+			resultado=-1;
+		}
+		
+		
+		}
+		else if(v1 instanceof Autobus && this instanceof Autobus){if(this.cilindrada< v1.cilindrada) {
+			resultado=-1;
+		}}
 		
 		
 		

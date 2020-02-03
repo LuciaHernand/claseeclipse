@@ -1,30 +1,14 @@
 package viviendasClasificacion;
 
 public class Chalet  extends Vivienda {
-
-	int plantas;
-
-	public Chalet() {
-		super();
-		// TODO Auto-generated constructor stub
-	}
-
-	public Chalet(String direccion, float precio, float m2) {
+	private int plantas;
+	public Chalet(String direccion, float precio, float m2, int plantas) {
 		super(direccion, precio, m2);
-		// TODO Auto-generated constructor stub
+		this.plantas=plantas;
 	}
-
-	public Chalet(int plantas) {
-		super();
-		this.plantas = plantas;
-	}
-
-	public int getPlantas() {
-		return plantas;
-	}
-
-	public void setPlantas(int plantas) {
-		this.plantas = plantas;
+	@Override
+	public String toString() {
+		return "Chalet [direccion=" + direccion + ", precio=" + precio + ", m2=" + m2 + "plantas=" + plantas + "]\n";
 	}
 	
 	

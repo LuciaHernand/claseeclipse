@@ -1,19 +1,18 @@
-package interfaces.compareto;
+package VehiculoCompleto;
 
 
-public class Taxi extends Vehiculo1 {
+public class Autobus extends Vehiculo1 {
 
-	public Taxi(String marca, int cilindrada) {
+	public Autobus(String marca, int cilindrada) {
 		super(marca, cilindrada);
 		// TODO Auto-generated constructor stub
 	}
-
-	public Taxi() {
+	public Autobus() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
 	
-	 
+	
 	 
 	
 

@@ -1,23 +1,15 @@
 package viviendasClasificacion;
 
-public class Vivienda implements Comparable{
-	String direccion;
-	float precio;
-	float m2;
-	
-	
-	public Vivienda() {
-		super();
-		// TODO Auto-generated constructor stub
-	}
-	
+public  class Vivienda implements Comparable<Vivienda>{
+	protected String direccion;
+	protected float precio;
+	protected float m2;
 	public Vivienda(String direccion, float precio, float m2) {
 		super();
 		this.direccion = direccion;
 		this.precio = precio;
 		this.m2 = m2;
 	}
-
 	public String getDireccion() {
 		return direccion;
 	}
@@ -36,12 +28,22 @@ public class Vivienda implements Comparable{
 	public void setM2(float m2) {
 		this.m2 = m2;
 	}
-
 	@Override
-	public int compareTo(Object o) {
-	int posicion=0;
-		return posicion;
+	public int compareTo(Vivienda v) {
+		int valorRetorno=0;
+		if (((v instanceof Apartamento) &&!(this instanceof Apartamento)) ||((this instanceof Piso )&&(v instanceof Chalet))){
+			if(this.precio<v.precio) {valorRetorno=1;}
+		} else if( ((this instanceof Apartamento) && !(v instanceof Apartamento ))||((this instanceof Chalet )&&(v instanceof Piso))){
+			if(this.precio>v.precio) {valorRetorno=-1;}
+		}
+		return valorRetorno;
 	}
+	@Override
+	public String toString() {
+		return "Vivienda [direccion=" + direccion + ", precio=" + precio + ", m2=" + m2 + "]\n";
+	}
+
+
 	
 
 }

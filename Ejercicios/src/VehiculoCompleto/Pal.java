@@ -1,4 +1,4 @@
-package interfaces.compareto;
+package VehiculoCompleto;
 
 import java.util.Arrays;
 
@@ -13,7 +13,7 @@ public class Pal {
 		Vehiculo1 [] veh= {v1,v2,v3,v4};
 		
 		
-		
+		System.out.println("Primero los Taxis, ordenados por cilindrada");
 		
 		Arrays.sort(veh);
 		
