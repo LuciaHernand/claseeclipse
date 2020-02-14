@@ -10,7 +10,7 @@ import java.nio.file.StandardOpenOption;
 public class EscrituraUnaVezBytes {
 	
 	public static void escritura() {
-		Path salida = Paths.get("Ficheros/EscrituraUnaVezBytes.txt");
+		Path salida = Paths.get("Ficheros1/EscrituraUnaVezBytes.txt");
 		
 		String s = "Esto es lo que escribo en el fichero, si tiene mas de una linea podemos \ntener saltos de linea\ny se ve que  lo interpreta correctamente ";
 		

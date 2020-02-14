@@ -11,7 +11,7 @@ public class LectEscPeqChar {
 	static Charset charset = Charset.forName("UTF-8");;
 
 	public static void escritura() {
-		Path salida = Paths.get("Ficheros/LectEscrPeqChar.txt");
+		Path salida = Paths.get("Ficheros1/LectEscrPeqChar.txt");
 		try {
 
 			// Escribimos una vez un archivo entero de caracteres utilizando java.nio
@@ -22,7 +22,7 @@ public class LectEscPeqChar {
 	}
 
 	public static void lectura() {
-		Path entrada = Paths.get("Ficheros/Nuevo.txt");
+		Path entrada = Paths.get("Ficheros1/Nuevo.txt");
 		// Lista de cadenas para leer las lineas
 
 		try {

@@ -10,7 +10,7 @@ public class EscrSecStream {
 			  OutputStream stream = null;
 			  byte[] b=null;
 			  try {
-			    stream = new FileOutputStream("Ficheros/EscrituraSecStream.txt");
+			    stream = new FileOutputStream("Ficheros1/EscrituraSecStream.txt");
 			    for (String fila : datos) {
 			    	b=fila.getBytes();
 			      stream.write(b, 0, fila.length());

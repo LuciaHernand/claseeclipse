@@ -1,0 +1,3 @@
+Esto es lo que escribo en el fichero, si tiene mas de una linea podemos 
+tener saltos de linea
+y se ve que  lo interpreta correctamente 

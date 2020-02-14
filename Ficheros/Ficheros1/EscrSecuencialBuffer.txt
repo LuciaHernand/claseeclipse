@@ -1,0 +1,4 @@
+INICIO del archivo
+Fila 1 del archivo
+Fila 2 del archivo
+Fila 3 del archivo
