@@ -10,7 +10,7 @@ public class LecturaPorBytes {
 	
 	public static void lectura() {
 
-		Path entrada = Paths.get("Ficheros/Ejemplo1.txt");
+		Path entrada = Paths.get("OtraFicheros/Ejemplo1.txt");
 
 		try {
 			texto = Files.readAllBytes(entrada);

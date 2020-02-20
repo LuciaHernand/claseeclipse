@@ -10,7 +10,7 @@ import java.nio.file.Paths;
 public class LectSecuenciaBuffer {
 
 	public static void main(String[] args) {
-		Path file= Paths.get("Ficheros/Ejemplo1.txt");
+		Path file= Paths.get("OtraFicheros/Ejemplo1.txt");
 		Charset charset = StandardCharsets.UTF_8;
 		BufferedReader iBuffer=null;
 		

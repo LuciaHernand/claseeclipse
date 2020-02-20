@@ -13,7 +13,7 @@ public class EscrituraUnaVez {
 	//Escritura en un fichero de una vez, con una lista de Strings
 		public static void main(String[] args) {
 				
-			Path salida = Paths.get("Ficheros/EscrituraUnaVez.txt");		
+			Path salida = Paths.get("Ficheros1/EscrituraUnaVez.txt");		
 			
 			List<String> fileLista=new ArrayList<>(Arrays.asList("Linea3","Linea7","Linea6"));
 			Charset charset=StandardCharsets.UTF_8;
