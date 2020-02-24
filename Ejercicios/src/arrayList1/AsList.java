@@ -20,8 +20,8 @@ public class AsList {
 				System.out.println();
 				Collections.sort(diasSemana);
 
-System.out.println("\n\tOrdenado alfabeticamente");
-for(String j: diasSemana) {System.out.println(j);}
+				System.out.println("\n\tOrdenado alfabeticamente");
+				for(String j: diasSemana) {System.out.println(j);}
 
 
 

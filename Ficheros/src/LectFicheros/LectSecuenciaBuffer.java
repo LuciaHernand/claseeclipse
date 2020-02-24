@@ -17,8 +17,8 @@ public class LectSecuenciaBuffer {
 		try{
 			
 			iBuffer = Files.newBufferedReader(file, charset);	
-			int c = 0;
-			/*
+			/*int c = 0;
+			
 			 * while ((c =iBuffer.read()) != -1) { System.out.print((char)c); }
 			 */
 			//Lectura por líneas 
