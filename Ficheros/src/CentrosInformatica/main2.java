@@ -22,8 +22,9 @@ public class main2 {
 		InputStream iBuffer=null;
 		BufferedWriter outBuffer=null;
 		String atributosCoslada[];
+		String atributosSanFer[];
 		List<String> filas1= new ArrayList<String>();
-		
+		List<String> filas2= new ArrayList<String>();
 		try {
 			iBuffer=Files.newInputStream(archivo);
 		String linea=null;
@@ -38,7 +39,15 @@ public class main2 {
 						System.out.println("\t-"+atributosCoslada[2]+","+atributosCoslada[3]+","+atributosCoslada[5]+",Calle: "+atributosCoslada[6]);
 						
 						}
-						
+					}
+						if(linea.contains("San Fernando de Henares")) {
+							filas2.add(linea);
+							System.out.println("San Fernando de Henares: \n");
+							for(String j: filas2) {
+							atributosSanFer=j.split(";");
+							System.out.println("\t-"+atributosSanFer[2]+","+atributosSanFer[3]+","+atributosSanFer[5]+",Calle: "+atributosSanFer[6]);
+							
+							}
 						
 					}
 					
