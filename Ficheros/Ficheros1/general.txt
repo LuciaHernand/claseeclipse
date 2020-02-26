@@ -1,0 +1,14 @@
+Coslada:
+
+	-Instituto de Educación Secundaria, LUIS BRAILLE, Centro público, Calle: CALLE de Luis Braille 42
+
+San Fernando de Henares:
+
+	-Instituto de Educación Secundaria,REY FERNANDO VI,Centro público, Calle: AVDA de Irún s/n
+	-Instituto de Educación Secundaria,VEGA DEL JARAMA,Centro público, Calle: AVDA de Irún 18
+
+Torrejón de Ardoz:
+
+	-Centro Privado de Formación Profesional Específica, CENTRO DE ESTUDIOS PROFESIONALES CAMINO REAL, Centro privado, Calle: AVDA Constitución 190
+	-Instituto de Educación Secundaria, ISAAC PERAL, Centro público, Calle: CALLE Plata 78
+	-Instituto de Educación Secundaria, VALLE INCLAN, Centro público, Calle: CALLE Juncal 14

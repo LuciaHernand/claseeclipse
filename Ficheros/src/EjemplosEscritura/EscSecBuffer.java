@@ -12,6 +12,7 @@ public class EscSecBuffer {
 
 		public static void main(String[] args) {
 			Path file= Paths.get("Ficheros1/EscrSecuencialBuffer.txt");
+		
 			Charset charset = StandardCharsets.UTF_8;
 			String[] s= {"Fila 1 del archivo","Fila 2 del archivo","Fila 3 del archivo"};
 			BufferedWriter writer =null;
