@@ -32,24 +32,23 @@ public class quijote2 {
 				oBuffer2=Files.newBufferedWriter(fileOut2, charset);
 				
 				String line = null;
-				while ((line = iBuffer.readLine()) != null) {
-					if (line.contains(".")) {
-						line=line.replace(".", ".\n");
-					}
-					oBuffer.write(line + "\t: "+ line.length()+ "\n");
-				}
-				int c = 0; int num = 0; String line2 = "";
+			/*
+			 * while ((line = iBuffer.readLine()) != null) { if (line.contains(".")) {
+			 * line=line.replace(".", ".\n"); } oBuffer.write(line + "\t: "+ line.length()+
+			 * "\n"); }
+			 */
+				int c = 0;  String line2 = "";
 				while ((c =iBuffer.read()) != -1) {
 					if (line2.length() == 60) {
 						line2+="\n";
 					texto.add(line2);
-					
+					oBuffer2.write(line2);
 						line2="";
 					} else if ( (c!='\n') && (c!='\r') ){
 						line2+=(char)c;
 					}
-					//oBuffer2.write(line2);
-					oBuffer2.write(line2);
+					
+					
 					
 				}
 				
