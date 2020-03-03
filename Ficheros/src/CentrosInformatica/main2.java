@@ -28,7 +28,7 @@ public class main2 {
 		List<String> centrosSanFer= new ArrayList<String>();
 		List<String> centrosTorrejon= new ArrayList<String>();
 		//tipo de charset
-		Charset charset = StandardCharsets.UTF_8;
+		Charset charset = StandardCharsets.ISO_8859_1;
 		
 		int n;
 		//para lectura

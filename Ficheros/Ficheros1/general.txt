@@ -1,14 +1,9 @@
 Coslada:
-
-	-Instituto de Educaci贸n Secundaria, LUIS BRAILLE, Centro p煤blico, Calle: CALLE de Luis Braille 42
-
+	-LUIS BRAILLE, Instituto de Educaci髇 Secundaria, Centro p鷅lico, CALLE de Luis Braille 42
 San Fernando de Henares:
-
-	-Instituto de Educaci贸n Secundaria,REY FERNANDO VI,Centro p煤blico, Calle: AVDA de Ir煤n s/n
-	-Instituto de Educaci贸n Secundaria,VEGA DEL JARAMA,Centro p煤blico, Calle: AVDA de Ir煤n 18
-
-Torrej贸n de Ardoz:
-
-	-Centro Privado de Formaci贸n Profesional Espec铆fica, CENTRO DE ESTUDIOS PROFESIONALES CAMINO REAL, Centro privado, Calle: AVDA Constituci贸n 190
-	-Instituto de Educaci贸n Secundaria, ISAAC PERAL, Centro p煤blico, Calle: CALLE Plata 78
-	-Instituto de Educaci贸n Secundaria, VALLE INCLAN, Centro p煤blico, Calle: CALLE Juncal 14
+	-REY FERNANDO VI, Instituto de Educaci髇 Secundaria, Centro p鷅lico, AVDA de Ir鷑 s/n
+	-VEGA DEL JARAMA, Instituto de Educaci髇 Secundaria, Centro p鷅lico, AVDA de Ir鷑 18
+Torrej髇 de Ardoz:
+	-CENTRO DE ESTUDIOS PROFESIONALES CAMINO REAL, Centro Privado de Formaci髇 Profesional Espec韋ica, Centro privado, AVDA Constituci髇 190
+	-ISAAC PERAL, Instituto de Educaci髇 Secundaria, Centro p鷅lico, CALLE Plata 78
+	-VALLE INCLAN, Instituto de Educaci髇 Secundaria, Centro p鷅lico, CALLE Juncal 14
