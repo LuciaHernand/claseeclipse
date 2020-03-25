@@ -1,0 +1,13 @@
+----------------------LISTADO DE CARRERAS POPULARES----------------------
+
+FECHA:			NOMBRE:										LUGAR:
+1/2/2020		Tractorismo RACE 2020										Villamanta
+1/2/2020		La tragamillas										Collado Villalba
+15/2/2020		IX Media Marat�n Cervantina										Alcal� de Henares
+19/3/2020		Contra el c�ncer										Madrid
+21/5/2020		Media Marat�n San Lorenzo del Escorial										San Lorenzo del Escorial
+25/9/2020		10k de Alcal�										Alcal� de Henares
+25/9/2020		Marat�n de Alcal�										Alcal� de Henares
+
+
+Listado generado el dia: null

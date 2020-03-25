@@ -76,6 +76,7 @@ public class IndezExamen {
 			System.out.println(fecha.getTime());
 			fecha.set(2023,4, 12);
 			System.out.println(fecha.getTime());
+			System.out.println(3%2);
 			
 		} catch (Exception e) {
 			

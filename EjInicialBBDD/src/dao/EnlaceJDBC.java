@@ -7,13 +7,13 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-import modelo.Alumno;
+
 
 
 
 public class EnlaceJDBC {
 	//private static final String DRIVER = "com.mysql.jdbc.Driver";
-	private static final String URL = "jdbc:mysql://localhost:3306/progra20";
+	private static final String URL = "jdbc:mysql://localhost:80/progra20";
 	private static final String USUARIO = "root";
 	private static final String CLAVE = "";
 	

@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"ejerciciosEnCasa","l":"Temperatura"},{"p":"ejerciciosEnCasa","l":"TemperaturaException"},{"p":"ejerciciosEnCasa","l":"ToleranciaException"}]
